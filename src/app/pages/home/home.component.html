@@ -1,0 +1,16 @@
+<app-header/>
+<div class="articles__container">
+  <div class="articles__container__main">
+    <app-big-card/>
+  </div>
+  <div class="articles__container__others">
+
+    @for (item of dataFake.slice(1); track $index) {
+      <app-small-card
+        [id]="item.id"
+        [photoCover]="item.photoCover + '200x125'"
+        [title]="item.title"
+        [description]="item.description"
+      />
+    }
+</div>

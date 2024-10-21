@@ -1,0 +1,32 @@
+.menu__container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 24px 0 24px;
+
+  &__logo{
+
+    img{
+      border: 1px solid gray;
+      border-radius: 15px;
+    }
+
+    &:hover{
+      cursor: pointer;
+    }
+  }
+
+  &__nav{
+    font-weight: bold;
+
+    &__content{
+      display: flex;
+      gap: 16px;
+
+      & > li:hover{
+        text-decoration: underline;
+      }
+
+    }
+  }
+}

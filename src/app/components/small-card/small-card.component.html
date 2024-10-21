@@ -1,0 +1,13 @@
+<div class="small-card__container">
+  <div class="small-card__container__photo">
+    <a routerLink="content/{{id}}"><img [src]="photoCover" alt="Imagem em destaque"></a>
+  </div>
+  <div class="small-card__container__content">
+    <div class="small-card__container__content__title">
+      <h1><a routerLink="content/{{id}}">{{title}}</a></h1>
+    </div>
+    <div class="small-card__container__content__description">
+      <p>{{description}}</p>
+    </div>
+  </div>
+</div>

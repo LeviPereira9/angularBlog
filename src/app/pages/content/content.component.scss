@@ -1,0 +1,30 @@
+.content__container{
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+
+  &__photo{
+
+    img{
+
+      border: 1px solid gray;
+      border-radius: 15px;
+
+    }
+  }
+
+  &__title{
+
+    h1{
+      font-weight: bold;
+      font-size: 24px;
+    }
+  }
+
+  &__description{
+    width: 800px;
+
+  }
+}

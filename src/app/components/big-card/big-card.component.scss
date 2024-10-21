@@ -1,0 +1,31 @@
+.big-card__container{
+  width: 400px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0px 16px;
+
+  &__photo{
+    color: inherit;
+  }
+
+  &__title{
+    h1{
+      font-size: 25px;
+    }
+  }
+
+  &__description  {
+    p{
+      color: gray;
+      text-align: justify;
+    }
+  }
+
+  &__title,&__description {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+}
